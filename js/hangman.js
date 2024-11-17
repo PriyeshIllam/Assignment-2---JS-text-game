@@ -49,8 +49,10 @@ console.log("The selected car is ", selectedCar);
 
 if (carResult.toLowerCase() == selectedCar.toLowerCase()){
   console.log("You won");
+  alrt("You won");
 } else {
   console.log("Computer won");
+  alert("Computer won");
 }
 
 
